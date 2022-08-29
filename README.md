@@ -62,7 +62,7 @@ As described above the task is splitted into half :
 # CNN model :
 The model chosen is Yolov5 weight m and batches 1, for more details see the Jupyter Notebook in the Deep Model Folder.
 (Note)
-Due the space limitation was not possible to upload the .onnx model directly in this repository so i leave here the link [CNN Model](https://drive.google.com/drive/u/1/folders/1si3Y3UUTIwSsnHo3mJ4tCpgyg-4KV9yy).
+Due the space limitation was not possible to upload the .onnx model directly in this repository so i leave here the link [CNN Model](https://drive.google.com/drive/u/1/folders/1E0-qUI3pAXWGMuD64Fn1Bta2jiR_SPBt).
 In addition in the Deep Learning Model folder there is the jupyter notebook where i selected , trained , tested and downloaded the .onnx of CNN model.
 
 # Test Set :
@@ -82,7 +82,7 @@ On Overall :
 
 # Running the Experiment :
 In order to run the application do :
-1. download the CNN model at the following link : [CNN Model](https://drive.google.com/drive/u/1/folders/1si3Y3UUTIwSsnHo3mJ4tCpgyg-4KV9yy)
+1. download the CNN model at the following link : [CNN Model](https://drive.google.com/drive/u/1/folders/1E0-qUI3pAXWGMuD64Fn1Bta2jiR_SPBt)
 2. Install the OpenCV library and CMake and configure your system to makes them ready for use
 3. Open the Terminal and go to the project folder
 4. create a build empty folder and move the terminal to build
