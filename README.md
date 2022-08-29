@@ -59,13 +59,19 @@ As described above the task is splitted into half :
    3. Write the Bounding Boxes Accuracies found in a .txt file for each image
    4. Write the Pixel Accuracies found in a .txt file for each image
 
+# CNN model :
+The model chosen is Yolov5 weight m and batches 1, for more details see the Jupyter Notebook in the Deep Model Folder.
+(Note)
+Due the space limitation was not possible to upload the .onnx model directly in this repository so i leave here the link [CNN Model](https://drive.google.com/drive/u/1/folders/1si3Y3UUTIwSsnHo3mJ4tCpgyg-4KV9yy).
+In addition in the Deep Learning Model folder there is the jupyter notebook where i selected , trained , tested and downloaded the .onnx of CNN model.
+
 # Test Set :
 
-A collection of 20 images from EgoHand with Bounding Boxes and Masks ground truth
+A collection of 20 images from EgoHand with Bounding Boxes and Masks ground truth (see Ground Truth folder)
 
 # Results :
 
-The outcomes are stored in the related folder , with both derived mask and coordinates. In a nutshell the results are good with an accuracy of 85% (Segmentation) and 80% (Detection) for most of the images.
+The outcomes are stored in the related folder , with both derived mask and coordinates. In a nutshell the results are good with an accuracy of 85% (Segmentation) and 80% (Detection) for most of the images. (see Test Results folder)
 
 # Computational time :
 
@@ -76,11 +82,12 @@ On Overall :
 
 # Running the Experiment :
 In order to run the application do :
-1. Install the OpenCV library and CMake and configure your system to makes them ready for use
-2. Open the Terminal and go to the project folder
-3. create a build empty folder and move the terminal to build
-4. here run the following terminal command : cmake ..
-5. run the following command : make
-6. then move in the folder Debug where the executable file named as 'CVProject' or 'CVProject.exe'
-7. run :  .\CVProject.exe -TestImgPath="your_path_to_the_test_dataset" -model="your_path_to_the_CNN_model" -DetImgSave="your_path_where_save_the_images_with_the_boxes" -BoxCoordSave="your_path_where_to_save_the_txt_files_with_the_derived_boxes" -SegImgSave="path_to_save_the_segmented_images"
+1. download the CNN model at the following link : [CNN Model](https://drive.google.com/drive/u/1/folders/1si3Y3UUTIwSsnHo3mJ4tCpgyg-4KV9yy)
+2. Install the OpenCV library and CMake and configure your system to makes them ready for use
+3. Open the Terminal and go to the project folder
+4. create a build empty folder and move the terminal to build
+5. here run the following terminal command : cmake ..
+6. run the following command : make
+7. then move in the folder Debug where the executable file named as 'CVProject' or 'CVProject.exe'
+8. run :  .\CVProject.exe -TestImgPath="your_path_to_the_test_dataset" -model="your_path_to_the_CNN_model" -DetImgSave="your_path_where_save_the_images_with_the_boxes" -BoxCoordSave="your_path_where_to_save_the_txt_files_with_the_derived_boxes" -SegImgSave="path_to_save_the_segmented_images"
 -MaskImgSave="path_to_save_the_mask_derived"
