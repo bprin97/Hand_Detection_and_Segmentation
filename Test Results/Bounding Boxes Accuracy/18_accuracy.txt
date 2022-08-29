@@ -1,0 +1,13 @@
+                                        Bounding Box Accuracy image 18:                                      
+
+Average Accuracy : 84.432555
+
+Accuracy per box
+Box 1 Accuracy : 81.679280
+
+Box 2 Accuracy : 85.257279
+
+Box 3 Accuracy : 88.292933
+
+Box 4 Accuracy : 82.500726
+
