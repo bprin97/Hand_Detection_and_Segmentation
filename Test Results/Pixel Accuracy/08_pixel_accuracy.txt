@@ -1,0 +1,5 @@
+                                        Pixel Accuracy :                                      
+
+Foreground Pixel Accuracy         Background Pixel Accuracy             Average Pixel Accuracy
+
+       73.137898                           98.583012                         85.860455
